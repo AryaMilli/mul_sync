@@ -1,24 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 16.01.2025 22:33:56
-// Design Name: 
-// Module Name: tb
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 
 class transaction;
   randc bit [3:0] a,b;
@@ -112,7 +92,7 @@ module tb;
     $finish();
   end 
   
-  //waveform 
+  //waveform files 
   initial begin 
   $dumpfile("dump.vcd");
   $dumpvars;
